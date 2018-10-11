@@ -240,6 +240,34 @@ footer{
     .social-icons img{
         vertical-align: middle;
     }
+    .contacts p{
+        font-size: 13px;
+        margin-bottom: 32px;
+        
+        
+    }
+    .contacts h4:first-child{
+        margin-bottom: 47px;
+    }
+    .contacts p img{
+        margin-right: 15px;
+        vertical-align: middle;
+    }
+    .contacts p span{
+        color: #ffea00;
+    }
+    .contacts input{
+        border: none;
+        border-bottom: 1px solid #ffea00;
+        background-color: #414146;
+    }
+    .contacts button{
+        background-image: url(../img/email-icon.png);
+        width: 28px;
+        height: 28px;
+        border: none;
+        vertical-align: middle;
+    }
     
     
 
@@ -323,4 +351,52 @@ footer{
         grid-template-columns: auto;
     }
 
-}
+    .footer-conteiner{
+        display: block;
+    }
+    .about-us{
+        text-align: center;
+    }
+    .about-us p{
+        text-align: left ;
+    }
+    .footer-conteiner .about-us a{
+        padding: 5px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .tweets h4{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .tweets p{
+        margin-top: 7px;
+        font-size: 11px;
+    }
+    .social-icons{
+        margin: 0 auto;
+    }
+    .social-icons h4{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .social-icons img{
+        margin-left: 10px;
+    }
+
+    .contacts h4{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .contacts h4:first-child{
+        margin-bottom: 15px;
+    }
+    .contacts p{
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+    .contacts input{
+        margin-left: 60px;
+    }
